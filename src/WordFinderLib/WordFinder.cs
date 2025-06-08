@@ -71,6 +71,8 @@
             {
                 count++;
                 index += word.Length;
+
+                //Thread.Sleep(500);
             }
 
             return count;

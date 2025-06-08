@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WordFinderLib", "WordFinder
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinderLib", "WordFinderLib\WordFinderLib.csproj", "{C4C384B4-8C57-4015-8FA3-5DC3057BC9B9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7F9E067E-7E7C-4518-B4C7-5C7CA4603351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinderTests", "WordFinderTests\WordFinderTests.csproj", "{C919BBAD-F282-41D1-B68B-8BE2B4F1C3E4}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{DBBBB75F-1901-44A6-AFC1-1C9E73B34A88}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinderDemo", "WordFinderDemo\WordFinderDemo.csproj", "{6380FC3F-C9FE-4C57-8238-C4B005A68963}"
