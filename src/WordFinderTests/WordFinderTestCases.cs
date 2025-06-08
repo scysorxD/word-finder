@@ -1,7 +1,7 @@
 ﻿public static class WordFinderTestCases
 {
     public static IEnumerable<object[]> GetTestCases()
-    {/*
+    {
         yield return new object[]
         {
             // Matrix
@@ -30,8 +30,11 @@
             new[] { "CASA", "CASA", "CASA", "CASA", "CARLOS", "CARLOS", "CARLOS", "VENTANA", "HOLA", "LIBRO", "LIBRO", "LIBRO", "LIBRO", "LIBRO", "LIBRO", "TECHO", "MARACA", "RATON", "GATO", "AMIGO", "MUSICA" },
             // Expected result
             new[] { "CARLOS", "MARACA", "CASA", "VENTANA", "HOLA", "TECHO", "RATON", "GATO", "AMIGO", "MUSICA" }
-        };*/
+        };
+    }
 
+    public static IEnumerable<object[]> GetPerformanceTestCases()
+    {
         // Big matrix
         yield return new object[]
         {

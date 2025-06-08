@@ -37,11 +37,12 @@
         
             var wordCounts = new Dictionary<string, int>();
 
-            foreach (var word in distinctWords)
+            Parallel.ForEach(distinctWords, word =>
             {
                 int count = CountOccurrences(word);
-                if (count > 0) wordCounts[word] = count;
-            }
+                if (count > 0)
+                    wordCounts[word] = count;
+            });
 
             return wordCounts
                 .OrderByDescending(x => x.Value)
@@ -71,8 +72,6 @@
             {
                 count++;
                 index += word.Length;
-
-                //Thread.Sleep(500);
             }
 
             return count;
