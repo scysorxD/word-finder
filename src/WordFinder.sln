@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WordFinderLib", "WordFinderLib", "{6B414AD6-E3FB-45A4-85FF-FFE4AB6AA9FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinderLib", "WordFinderLib\WordFinderLib.csproj", "{C4C384B4-8C57-4015-8FA3-5DC3057BC9B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{DBBBB75F-1901-44A6-AFC1-1C9E73B34A88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinderDemo", "WordFinderDemo\WordFinderDemo.csproj", "{6380FC3F-C9FE-4C57-8238-C4B005A68963}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4C384B4-8C57-4015-8FA3-5DC3057BC9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C384B4-8C57-4015-8FA3-5DC3057BC9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C384B4-8C57-4015-8FA3-5DC3057BC9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C384B4-8C57-4015-8FA3-5DC3057BC9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C919BBAD-F282-41D1-B68B-8BE2B4F1C3E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C919BBAD-F282-41D1-B68B-8BE2B4F1C3E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C919BBAD-F282-41D1-B68B-8BE2B4F1C3E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C919BBAD-F282-41D1-B68B-8BE2B4F1C3E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6380FC3F-C9FE-4C57-8238-C4B005A68963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6380FC3F-C9FE-4C57-8238-C4B005A68963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6380FC3F-C9FE-4C57-8238-C4B005A68963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6380FC3F-C9FE-4C57-8238-C4B005A68963}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4C384B4-8C57-4015-8FA3-5DC3057BC9B9} = {6B414AD6-E3FB-45A4-85FF-FFE4AB6AA9FB}
+		{C919BBAD-F282-41D1-B68B-8BE2B4F1C3E4} = {7F9E067E-7E7C-4518-B4C7-5C7CA4603351}
+		{6380FC3F-C9FE-4C57-8238-C4B005A68963} = {DBBBB75F-1901-44A6-AFC1-1C9E73B34A88}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16456930-A43F-4EFD-99B9-F22C5806D2AA}
+	EndGlobalSection
+EndGlobal
